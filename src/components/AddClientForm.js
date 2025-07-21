@@ -21,6 +21,7 @@ export default function AddClientForm() {
     coachName: "",
     phone: "",
     goals: "",
+    role: "client"
   });
 
   const [status, setStatus] = useState({ type: "", message: "" });
@@ -72,6 +73,7 @@ export default function AddClientForm() {
         goals: formData.goals,
         startDate: new Date(),
         clientId: user.uid,
+        role: user.role
       });
 
       setStatus({ type: "success", message: "Client registered successfully!" });
@@ -83,6 +85,7 @@ export default function AddClientForm() {
         coachName: "",
         phone: "",
         goals: "",
+        role: "client"
       });
     } catch (error) {
       setStatus({ type: "error", message: error.message });
