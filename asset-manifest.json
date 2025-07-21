@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/CoachPilot/static/js/main.f09ae337.js",
+    "main.js": "/CoachPilot/static/js/main.9c4a651d.js",
     "index.html": "/CoachPilot/index.html",
-    "main.f09ae337.js.map": "/CoachPilot/static/js/main.f09ae337.js.map"
+    "main.9c4a651d.js.map": "/CoachPilot/static/js/main.9c4a651d.js.map"
   },
   "entrypoints": [
-    "static/js/main.f09ae337.js"
+    "static/js/main.9c4a651d.js"
   ]
 }
